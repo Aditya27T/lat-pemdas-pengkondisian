@@ -6,6 +6,7 @@ using namespace std;
 int main() {
     float nilai_keaktifan, nilai_tugas, nilai_ujian, nilai_akhir;
     string nilai_huruf, motivasi;
+    // char nilai_huruf[2], motivasi[100];
 
     // Input nilai keaktifan, tugas, dan ujian
     cout << "Masukkan nilai keaktifan: ";
