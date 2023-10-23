@@ -43,6 +43,9 @@ int main() {
     } else if (nilai_akhir >= 91 && nilai_akhir <= 100) {
         nilai_huruf = "A";
         motivasi = "Selamat! Anda lulus dengan nilai yang EXCELLENT!";
+    } else {
+        nilai_huruf = "X";
+        motivasi = "Nilai yang Anda masukkan tidak valid.";
     }
 
     // Output nilai akhir, nilai huruf, dan motivasi

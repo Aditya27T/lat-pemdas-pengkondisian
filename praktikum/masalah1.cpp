@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 
 using namespace std;
 
@@ -8,7 +9,8 @@ int main() {
     cout << "=============================" << endl;
 
     int harga, jumlah, total, diskon, bayar;
-    string nama_kasir, nama_orang;
+    char nama_kasir[100], nama_orang[100];
+    // string nama_kasir, nama_orang;
 
     cout << "Masukkan nama kasir: ";
     cin >> nama_kasir;
