@@ -9,10 +9,10 @@ int main() {
     int pendapatan, uangJasa, komisi;
 
     cout << "Masukkan nama kasir: ";
-    getline(cin, namaKasir);
+    cin >> namaKasir;
 
     cout << "Masukkan nama salesman: ";
-    getline(cin, namaSalesman);
+    cin >> namaSalesman;
 
     cout << "Masukkan pendapatan salesman hari ini: ";
     cin >> pendapatan;
